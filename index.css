@@ -10,6 +10,38 @@ body {
   padding: 0;
 }
 
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-container .button:hover {
+  background-color: #fff!important;
+  color: #4e8ffa;
+  box-shadow: 0 2px 50px 0 rgba(0,0,0,.1);
+}
+
+.buttons-container .button {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid #4e8ffa;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background-color: #4e8ffa!important;
+    color: #fbfbfb;
+    font-family: 'Muli-bold', sans-serif;
+    font-size: 12px;
+    letter-spacing: .89px;
+    line-height: 19px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 .work-exp {
   display: flex;
 }
