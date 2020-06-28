@@ -1,0 +1,339 @@
+<html>
+  <head>
+    <title> Creating Resume </title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> -->
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="resume_component">
+      <div id="resume" class="resume_component">
+        <div class="name_component">
+          <div>
+            <!-- add "Leadership and awards" section<br />
+            consider adding "freelancer" experience<br />
+            month year format if applying for other countries<br />
+            use action points for every bulletins like created, designed, developed <br />
+            write resume specific to job description, its hectic but do <br />  -->
+            <!-- <a href='https://youtu.be/BYUy1yvjHxE?list=PLllx_3tLoo4c_aR8RKOOnizL5LiUH02YF'>google reference</a> -->
+            <p class="candidate_name"> Mokesh S </p>
+            <p class="candidate_tag"> Software Engineer </p>
+            <p class="candidate_caption"> I'm a full stack developer with 3 years of experience in software development. Seasoned in front end technologies and worked in multiple payment gateways. Strong problem-solving, analytical, time management and technical skills to improve the existing systems. Experienced in adapting to organization process, improvements to product infrastructure and prototyping. </p>
+          </div>
+          <!-- <div><img class="profile-image" src="./mokesh.jpg" alt="mokesh-photo"></img></div> -->
+        </div>
+        <div class="extra_information">
+          <li> <i class="fa fa-envelope icon_color" aria-hidden="true"></i> writetomokesh@gmail.com </li>
+          <li> <i class="fa fa-mobile icon_color" style="font-size: 24px;position:relative;top:3px;" aria-hidden="true"></i> +91 99769 22349 </li>
+          <li> <i class="fa fa-linkedin icon_color" aria-hidden="true"></i> linkedin.com/in/mokesh-s-86231212a </li>
+          <li> <i class="fa fa-skype icon_color" aria-hidden="true"></i> join.skype.com/invite/n4OeYB93lBTT </li>
+          <!-- <li> <i class="fa fa-github icon_color" aria-hidden="true"></i> github.com/Mokesh-official </li> -->
+          <!-- <li> <i class="fa fa-stack-overflow icon_color" aria-hidden="true"></i> stackoverflow.com/users/11225762/mokesh-moha </li> -->
+        </div>
+        <div class="resume_content">
+          <div class="resume_body">
+            <div class="resume_parts">
+              <div class="work-exp"><h3> Work Experience </h3></div>
+
+              <div>
+                <div class="company-details">
+                  <h4 id='dev'> Tringapps Research Labs Pvt Ltd </h4>
+                  <div class="tenure_details">
+                    <span> 03/2019 – Present </span>
+                    <span> Chennai, India </span>
+                  </div>
+                </div>
+
+                <div class="project-content">
+                  <span class="h4"> Role and contribution: </span><span class="company_description"> Development Lead </span>
+                  <div class="achivements">
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Lead efforts in development at agile environment</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Mentor and team oriented collaborating in web team trainings</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li><b>Lead efforts in integrating paypal payment gateway</b></li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Developed applications from <b>scratch to live</b> and involved in all development operations</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li> Conducted code reviews, testing and working on code optimizations </li>
+                    </div>
+                    <!-- <div class="individual_achivement"> <span> - </span>
+                      <li>Field work on requirement engineering and requirement triage</li>
+                    </div> -->
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Lead the stand ups and bug triage </li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Presentations and Working with cross functional teams in design, research, quality assurance and project management </li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li> Designed data models according to the business requirements </li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li> <b>Improved performance of the applications</b> and collaborate with latest technologies </li>
+                    </div>
+                  <!-- </div>
+                </div>
+
+                <div class="project-content">
+
+                  <div class="achivements"> -->
+                    <!-- <div class="individual_achivement"> <span> - </span>
+                      <li>Maintained the customer reliability and handled client calls</li>
+                    </div> -->
+                    <div class="individual_achivement"> <span> - </span>
+                      <li><b>Developed API services in node.js</b> for CTA’s </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <span class="h4"> Role and contribution: </span><span class="company_description"> Full stack developer </span>
+                  <div class="tenure_details">
+                    <span> 08/2018 – 02/2019 </span>
+                    <span> Chennai, India </span>
+                  </div>
+
+                  <div class="achivements">
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Developed web pages and APIs integration</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Integrated ccavenue payment gateway for e-payments</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Worked on GCS console and AWS console </li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li> Demonstrated experience to articulate complex process </li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li> Assisting and troubleshooting the technical issues </li>
+                    </div>
+                  <!-- </div>
+                </div>
+
+                <div class="project-content">
+
+                  <div class="achivements"> -->
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Developed application from scratch to live, in agile environment</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Trained in product innovation, product analysis and communication skills</li>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="company-details">
+                  <h4 id='dev'> L&T Thales Technology Services </h4>
+                  <div class="tenure_details">
+                    <span> 12/2017 – 07/2019 </span>
+                    <span> Chennai, India </span>
+                  </div>
+                </div>
+
+                <div class="project-content">
+                  <span class="h4"> Role and contribution: </span><span class="company_description"> Web developer </span>
+                                              
+                  <div class="achivements">
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Developed new features of Electronic test module</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Support for the application and build releases</li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Worked on API services for CTA’s </li>
+                    </div>
+                    <div class="individual_achivement"> <span> - </span>
+                      <li>Developed and supported web pages, animations and API services</li>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <!-- <div>
+                <h4 id="dev"> Software Development Engineer II </h4>
+                <p class="h4"> Nineleaps </p>
+                <div class="tenure_details">
+                  <span> 08/2018 – Present </span>
+                  <span> Bengaluru, India </span>
+                </div>
+                <p class="company_description"> Enablers of Digital Transformation across industries, helping partner companies become future ready </p>
+
+                <div class="achivements">
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Planning and developing product of the client which enables access to various applications to different types of employees </li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Leading the FrontEnd team, setting up structure for the data flow, including coding standards into the code base </li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Created faster layer on the existing application, developing reusable components and optimizing the bundle size</li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Implementing nested components, logic for multi-level selection, retaining states, implementing auth token on frontend. Persisting data on browser and reducing the API calls </li>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h4> Full Stack Engineer </h4>
+                <p class="h4"> Busigence Technologies </p>
+                <div class="tenure_details">
+                  <span> 08/2017 – 07/2018 </span>
+                  <span> Bengaluru, India </span>
+                </div>
+                <p class="company_description"> Decision Intelligence Company, Working on Machine Learning, Deep Learning and Artificial Intelligence </p>
+
+                <div class="achivements">
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Developed AI Platform with multiple technologies. Creating interactive layout and transferring into pages. Creating centralized store to manage data flow inside the application </li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Developed basic store structure and Storing object and element states using couchdb </li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Developed collaboration window and integrating it with the application.</li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Basic pipeline construction and developing script based on the interaction with the application and executing the pipeline.</li>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h4> Front End Associate </h4>
+                <p class="h4"> Busigence Technologies </p>
+                <div class="tenure_details">
+                  <span> 02/2017 – 07/2017 </span>
+                  <span> Bengaluru, India </span>
+                </div>
+                <p class="company_description"> Decision Intelligence Company, Working on Machine Learning, Deep Learning and Artificial Intelligence </p>
+
+                <div class="achivements">
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Developed multiple web pages and wordpress sites for the product and company </li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Building Algorithms to handle the data and connecting the UI with API endpoints and ensuring proper data flow in the API </li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Developing Business logic in Middle ware API endpoints, connecting backend algorithms and appropriate database. Creating connector for databases and ingesting in data lake</li>
+                  </div>
+                  <div class="individual_achivement"> <span> - </span>
+                    <li> Implementing python algorithms to differentiating the process. Handling requests and created automated tasks to handle the response.</li>
+                  </div>
+                </div>
+              </div> -->
+
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="resume_parts">
+              <h3> Areas of expertise </h3>
+              <div class="tag_holder skill_holder">
+                <li> React JS </li>
+                <li> Redux </li>
+                <li> Node JS </li>
+                <li> Express JS </li>
+                <li> Payment integrations </li>
+                <li> HTML5 </li>
+                <li> CSS3 </li>
+                <li> SCSS </li>
+                <li> LESS </li>
+                <li> ES6 </li>
+                <li> Javascript </li>
+                <li> Webpack </li>
+                <li> Firebase </li>
+                <li> Version control </li>
+                <li> php </li>
+                <li> JIRA </li>
+                <li> MVC </li>
+                <li> Agile development </li>
+                <li>Unix/Linux </li>
+              </div>
+
+              <h3> Payment gateways expertise</h3>
+              <div class="tag_holder skill_holder">
+                <li> Paypal </li>
+                <li> Ccavenue </li>
+                <li> Razorpay </li>
+                <li> Bluepay </li>
+              </div>
+
+              <h3> Hands on experience </h3>
+              <div class="tag_holder skill_holder">
+                <li> bootstrap </li>
+                <li> Design patterns </li>
+                <li> SEO </li>
+                <li> google console </li>
+                <li> AWS console </li>
+                <li> Godaddy </li>
+                <li> Object oriented design </li>
+                <li> AJAX </li>
+                <li> MySQL </li>
+                <li> Data structures </li>
+                <li> Core JAVA </li>
+                <li> Unit testing </li>
+              </div>
+
+              <h3> Certifications </h3>
+              <div class="individual_achivement"> <span> - </span>
+                &nbsp;Javascript certified from codecademy
+              </div>
+              <div class="individual_achivement"> <span> - </span>
+                &nbsp;CSS certified from codecademy
+              </div>
+              <div class="individual_achivement"> <span> - </span>
+                &nbsp;JAVA certified from JSpiders
+              </div>
+
+              <h3> Freelancing </h3>
+              <h4> Srida Herbals </h4>
+              <div class="company_description">Successfully launched srida herbals e-commerce site from scratch to live single-handedly.</div>
+              <div class="company_description">Link: https://sridaherbals.com/</div>
+
+
+              <!-- education ends -->
+              <h3> Education </h3>
+
+              <h4> MS Software Engineering </h4>
+              <p class="h4"> VIT University </p>
+              <div class="tenure_details">
+                <span> 2012 – 2017 </span>
+              </div>
+
+              <!-- <h4> Higher Secondary Certificate </h4>
+              <p class="h4"> Sri Ramakrishna BHEL Hr. Sec. School </p>
+              <div class="tenure_details">
+                <span> 2011 – 2012 </span>
+              </div> -->
+              <!-- education ends -->
+
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <!-- <br><br><br> -->
+      </div>
+    </div>
+
+    <br><br>
+    <button id="cmd"> Print PDF </button>
+
+  </body>
+</html>
