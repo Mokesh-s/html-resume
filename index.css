@@ -40,6 +40,7 @@ body {
     justify-content: center;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: 800;
 }
 
 .work-exp {
