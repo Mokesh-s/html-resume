@@ -10,6 +10,11 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .buttons-container {
   width: 100%;
   display: flex;
@@ -251,4 +256,12 @@ body {
 .language {
   width: 150px;
   display: inline-block;
+}
+
+.mid-row {
+  padding-top: 0 !important;
+}
+
+.company {
+  margin-top: 20px;
 }
