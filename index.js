@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  console.log('Applciation has been started');
-
+  console.log('Application has been started');
+  window.jsPDF = window.jspdf.jsPDF;
   var doc = new jsPDF();
   var specialElementHandlers = {
       '#editor': function (element, renderer) {
@@ -20,7 +20,7 @@ $(document).ready(function() {
       // printDoc.output("dataurlnewwindow");
 
       var printWindow = window.open('', '');
-      printWindow.document.write('<html><head><title>DIV Contents</title>');
+      printWindow.document.write('<html><head><title>Mokesh Resume</title>');
       printWindow.document.write('<link rel="stylesheet" href="index.css"/>');
       printWindow.document.write('<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"/>');
       printWindow.document.write('</head><body id="body">');

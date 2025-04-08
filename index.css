@@ -16,6 +16,10 @@ body {
   justify-content: space-between;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .buttons-container .button:hover {
   background-color: #fff!important;
   color: #4e8ffa;
