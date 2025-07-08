@@ -20,6 +20,10 @@ body {
   margin-top: 20px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .buttons-container .button:hover {
   background-color: #fff!important;
   color: #4e8ffa;
@@ -97,7 +101,7 @@ body {
 .tenure_details {
   display: flex;
   justify-content: space-between;
-  margin: 4px 0;
+  margin: 10px 0;
 }
 
 .tenure_details span {
@@ -210,7 +214,7 @@ body {
 
 .individual_achivement {
   display: flex;
-  margin-bottom: 4px;
+  margin: 10px 0;
   font-size: 14px;
   line-height: 18px;
 }
